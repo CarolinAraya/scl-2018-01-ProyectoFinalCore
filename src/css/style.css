@@ -1,3 +1,6 @@
+.section {
+  text-align: left;
+}
 #c {
   display: none;
 }

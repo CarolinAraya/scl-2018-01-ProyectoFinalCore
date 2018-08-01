@@ -16,10 +16,9 @@ firebase.database().ref('visitors')
     .on('child_added', (newVisit) => {
         const visitContainer = document.createElement('div');
         dashboardAdmin.appendChild(visitContainer)
-        visitContainer.innerHTML += `<div>
+        visitContainer.innerHTML +=  `<div class="divider"></div>
+                                        <div class="section">
                                         <p>Visitante: ${newVisit.val().visitName}</p>
-                                        <p>Rut:${newVisit.val().rut}</p>
-                                        <p>Email:${newVisit.val().email}</p>
                                         <p>Empresa visitada: ${newVisit.val().companyToVisit}</p>
                                         <p>Visitó a: ${newVisit.val().toVisit}</p>
                                      </div>`
