@@ -21,6 +21,8 @@
   "homepage": "https://github.com/CarolinAraya/scl-2018-01-ProyectoFinalCore#readme",
   "dependencies": {
     "chai": "^4.1.2",
-    "mocha": "^5.2.0"
+    "cors": "^2.8.4",
+    "mocha": "^5.2.0",
+    "nodemailer": "^4.6.7"
   }
 }
